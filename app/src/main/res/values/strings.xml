@@ -2,4 +2,5 @@
     <string name="app_name">Task</string>
     <string name="main_name">task-app</string>
     <string name="lbl_continue">Continue</string>
+    <string name="lbl_initialize">Initialize</string>
 </resources>

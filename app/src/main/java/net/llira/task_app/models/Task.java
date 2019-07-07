@@ -7,6 +7,9 @@ public class Task {
     private String date;
     private String status;
 
+    public Task() {
+    }
+
     public Task(String taskKey, String description, String priority, String date, String status) {
         this.taskKey = taskKey;
         this.description = description;
@@ -54,4 +57,16 @@ public class Task {
     public void setStatus(String status) {
         this.status = status;
     }
-}
+
+    @Override
+    public String toString() {
+        return "Task{" +
+                "taskKey='" + taskKey + '\'' +
+                ", description='" + description + '\'' +
+                ", priority='" + priority + '\'' +
+                ", date='" + date + '\'' +
+                ", status='" + status + '\'' +
+                '}';
+    }
+
+}//End class
